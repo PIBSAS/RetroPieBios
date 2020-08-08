@@ -18,9 +18,9 @@ sudo mkdir /opt/retropie/configs/nds/drastic/
 echo "Carpeta drastic creada"
 sudo mkdir /opt/retropie/configs/nds/drastic/system/
 echo "Carpeta system creada"
-sudo cp -r /home/pi/RetroPieBios/opt/retropie/configs/nds/drastic/system* /opt/retropie/configs/nds/drastic/system/
+sudo cp -r /home/pi/RetroPieBios/opt/retropie/configs/nds/drastic/system/* /opt/retropie/configs/nds/drastic/system/
 echo "Bios Drastic copiadas"
-sudo cp -r /home/pi/RetroPieBios/opt/retropie/emulators/retroarch/bin* /opt/retropie/emulators/retroarch/bin/
+sudo cp -r /home/pi/RetroPieBios/opt/retropie/emulators/retroarch/bin/* /opt/retropie/emulators/retroarch/bin/
 echo "Bios Macintosh copiada"
 echo "Moviendo BIOS que deben estar en la carpeta roms"
 echo "Creando carpeta macintosh"
@@ -54,8 +54,8 @@ echo "Bios copiada en directorio mame-advmame"
 echo
 echo "Al fin, Copiadas todas las BIOS"
 echo
-echo "Regresando a cas para pasar la escoba"
-cd
+echo "Regresando a casa para pasar la escoba"
+cd ..
 sudo rm -rf /home/pi/RetroPieBios/
 echo "Listo, todo limpio"
 echo "Reinicia tu Raspberry Pi con <sudo reboot> y Disfruta"
