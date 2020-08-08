@@ -11,7 +11,7 @@ echo "BIOS movidas"
 echo
 echo "moviendo BIOS especiales"
 echo
-echo "Creando carpetas inexistentes"
+echo "Creando carpetas inexistentes, si ya existe dara mensaje no te preocupes"
 sudo mkdir /opt/retropie/configs/nds/
 echo "Carpeta nds creada"
 sudo mkdir /opt/retropie/configs/nds/drastic/
@@ -61,4 +61,12 @@ echo "Listo, todo limpio"
 echo "Reinicia tu Raspberry Pi con <sudo reboot> y Disfruta"
 echo "Saludos desde Raspberry Pi Buenos Aires"
 echo
+echo "Esta ventana se destruira en.."
+echo "3.."
 echo
+echo "2.."
+echo
+echo "1.."
+echo
+echo 
+exit
