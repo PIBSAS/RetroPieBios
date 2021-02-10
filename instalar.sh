@@ -28,6 +28,19 @@ mkdir /home/pi/RetroPie/roms/macintosh/
 echo "Carpeta macintosh creada"
 cp -r /home/pi/RetroPieBios/roms/macintosh/* /home/pi/RetroPie/roms/macintosh/
 echo "Bios macintosh copiada"
+echo "Creando carpeta Cannonball"
+mkdir /home/pi/RetroPie/roms/ports/cannonball/
+echo "Carpeta cannonbal creada"
+echo
+echo "Copiando cannonball"
+cp -r /home/pi/RetroPieBios/roms/ports/cannonball/* /home/pi/RetroPie/roms/ports/cannonball/
+echo "Moviendonos a la carpeta cannonball"
+cd /home/pi/RetroPie/roms/ports/cannonball/
+echo "Descomprimiendo outrun.zip"
+find ./ -iname "*.zip" -execdir unzip -o '{}' ';'
+echo
+cd
+echo "Cannonball copiado"
 echo
 echo "Copiando Bios neogeo a las carpetas correspondientes" 
 echo
