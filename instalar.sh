@@ -28,6 +28,8 @@ mkdir /home/pi/RetroPie/roms/macintosh/
 echo "Carpeta macintosh creada"
 cp -r /home/pi/RetroPieBios/roms/macintosh/* /home/pi/RetroPie/roms/macintosh/
 echo "Bios macintosh copiada"
+echo "Creando carpeta ports"
+mkdir /home/pi/RetroPie/roms/ports/
 echo "Creando carpeta Cannonball"
 mkdir /home/pi/RetroPie/roms/ports/cannonball/
 echo "Carpeta cannonbal creada"
