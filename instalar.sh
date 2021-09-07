@@ -52,7 +52,7 @@ cp -r /home/pi/RetroPieBios/roms/neogeo/* /home/pi/RetroPie/roms/arcade/
 echo "Bios copiada en directorio arcade"
 cp -r /home/pi/RetroPieBios/roms/neogeo/* /home/pi/RetroPie/roms/fba/
 echo "Bios copiada en directorio fba"
-cp -r /home/pi/RetroPieBios/roms/neogeo/* /home/pi/RetroPie/roms/mame-libretro/
+cp -r /home/pi/RetroPieBios/roms/mame-libretro/* /home/pi/RetroPie/roms/mame-libretro/
 echo "Bios copiada en directorio mame-libretro"
 echo
 echo "Creando directorio mame-mame4all"
