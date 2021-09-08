@@ -59,6 +59,8 @@ echo "Creando directorio mame"
 mkdir /home/pi/RetroPie/roms/mame
 echo "Creado"
 cp -r /home/pi/RetroPieBios/roms/mame/* /home/pi/RetroPie/roms/mame/
+echo "Descargando Bios aristmk6"
+wget https://archive.org/download/mame0235bios/aristmk6.zip -P /home/pi/RetroPie/roms/mame/
 echo "Bios MAME Current copiadas en directorio mame"
 echo
 echo "Creando directorio mame-mame4all"
