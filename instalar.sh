@@ -92,4 +92,5 @@ echo
 echo "1.."
 echo
 echo 
+echo "Que esperas, reinicia de una vez"
 exit
