@@ -53,7 +53,13 @@ echo "Bios copiada en directorio arcade"
 cp -r /home/pi/RetroPieBios/roms/neogeo/* /home/pi/RetroPie/roms/fba/
 echo "Bios copiada en directorio fba"
 cp -r /home/pi/RetroPieBios/roms/mame-libretro/* /home/pi/RetroPie/roms/mame-libretro/
-echo "Bios copiada en directorio mame-libretro"
+echo "Bios lr-mame2003plus copiadas en directorio mame-libretro"
+echo
+echo "Creando directorio mame"
+mkdir /home/pi/RetroPie/roms/mame
+echo "Creado"
+cp -r /home/pi/RetroPieBios/roms/mame/* /home/pi/RetroPie/roms/mame/
+echo "Bios MAME Current copiadas en directorio mame"
 echo
 echo "Creando directorio mame-mame4all"
 mkdir /home/pi/RetroPie/roms/mame-mame4all
