@@ -1,7 +1,7 @@
 #!/bin/bash
 ###########################################################################
-# Repositorio: RetroPieBios
-# Por: Luciano Rabassa (https://sites.google.com/view/raspberryargentina/)
+# Repositorio: RetroPie Bios 2022
+# Por: Raspberry Pi Buenos Aires (https://sites.google.com/view/raspberrypibuenosaires/)
 # License: http://creativecommons.org/licenses/by-sa/4.0/
 ###########################################################################
 echo "Moviendo las Bios al lugar adecuado"
@@ -93,4 +93,6 @@ echo "1.."
 echo
 echo 
 echo "Que esperas, reinicia de una vez"
+sleep 5
+sudo rebbot
 exit
