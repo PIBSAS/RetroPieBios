@@ -4,6 +4,9 @@
 # Por: Raspberry Pi Buenos Aires (https://sites.google.com/view/raspberrypibuenosaires/)
 # License: http://creativecommons.org/licenses/by-sa/4.0/
 ###########################################################################
+echo "Obteniendo Bios"
+git clone https://github.com/Luciano2018/RetroPieBios.git
+
 echo "Moviendo las Bios al lugar adecuado"
 cp -r /home/pi/RetroPieBios/BIOS/* /home/pi/RetroPie/BIOS/
 echo
