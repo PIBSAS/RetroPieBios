@@ -96,6 +96,5 @@ echo "1.."
 sleep 1
 echo 
 echo "Que esperas, reinicia de una vez"
-sleep 3
 sudo reboot
 exit
