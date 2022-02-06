@@ -1,5 +1,7 @@
-# RetroPie Bios 2022
+#                                  <h1 align="center"> RetroPie Bios 2022</h1>
+<p align="center">
 Las Bios Correctas y necesarias para RetroPie, sin archivos innecesarios. Ahora incluyen las bios de MAME.
+</p>
 
 ![alt text](https://raw.githubusercontent.com/Luciano2018/RetroPieBios/master/logov3.png)
 
