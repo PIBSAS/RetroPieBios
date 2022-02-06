@@ -1,6 +1,8 @@
 # RetroPie Bios 2022
 Las Bios Correctas y necesarias para RetroPie, sin archivos innecesarios. Ahora incluyen las bios de MAME.
 
+![alt text](https://raw.githubusercontent.com/Luciano2018/RetroPieBios/master/logov3.png)
+
 # Instalacion facil:
 ```
 curl -sSL https://raw.githubusercontent.com/Luciano2018/RetroPieBios/master/instalar.sh | bash
