@@ -6,6 +6,8 @@ Las Bios Correctas y necesarias para RetroPie, sin archivos innecesarios. Ahora 
 ![alt text](https://raw.githubusercontent.com/Luciano2018/RetroPieBios/master/logov3.png)
 
 # Instalacion facil:
+
+Salimos con **F4** a la terminal de RetroPie e introducimos:
 ```
 curl -sSL https://raw.githubusercontent.com/Luciano2018/RetroPieBios/master/instalar.sh | bash
 ```
