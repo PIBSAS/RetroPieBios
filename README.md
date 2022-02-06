@@ -7,10 +7,10 @@ Las Bios Correctas y necesarias para RetroPie, sin archivos innecesarios. Ahora 
 ```
 curl -sSL https://raw.githubusercontent.com/Luciano2018/RetroPieBios/master/instalar.sh | bash
 ```
-# Tutorial Retroconsolas:
+# Tutorial: Retroconsolas
 https://sites.google.com/view/raspberrypibuenosaires/retro-consolas
 
-# Tutorial: Instalar RetroPie dentro de Raspberry Pi OS como una app mas:
+# Tutorial: Instalar RetroPie dentro de Raspberry Pi OS como una app mas
 https://sites.google.com/view/raspberrypibuenosaires/instala-retropie-en-raspberry-pi-os
 
 # Tutorial: Agrega Sistemas personalizados a EmulationStation
