@@ -89,12 +89,13 @@ echo "Saludos desde Raspberry Pi Buenos Aires"
 echo
 echo "Esta ventana se destruira en.."
 echo "3.."
-sleep 1
+sleep 3
 echo "2.."
-sleep 1
+sleep 2
 echo "1.."
-sleep 1
+sleep 4
 echo 
 echo "Que esperas, reinicia de una vez"
+sleep 7
 sudo reboot
 exit
