@@ -3,7 +3,10 @@
 Las Bios Correctas y necesarias para RetroPie, sin archivos innecesarios. Ahora incluyen las bios de MAME.
 </p>
 
-![alt text](https://raw.githubusercontent.com/Luciano2018/RetroPieBios/master/logov3.png)
+</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/Luciano2018/RetroPieBios/master/logov3.png" alt="Raspberry Pi Buenos Aires" width="400" height="500">
+</p>
 
 # Instalacion facil:
 
