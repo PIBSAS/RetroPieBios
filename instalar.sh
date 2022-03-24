@@ -1,6 +1,6 @@
 #!/bin/bash
 ###########################################################################
-# Repositorio: RetroPie Bios 2022
+# Repositorio: RetroPie 4.8 Bios 2022
 # Por: Raspberry Pi Buenos Aires (https://sites.google.com/view/raspberrypibuenosaires/)
 # License: http://creativecommons.org/licenses/by-sa/4.0/
 ###########################################################################
@@ -30,14 +30,14 @@ echo "Creando carpeta macintosh"
 mkdir /home/pi/RetroPie/roms/macintosh/
 echo "Carpeta macintosh creada"
 cp -r /home/pi/RetroPieBios/roms/macintosh/* /home/pi/RetroPie/roms/macintosh/
-echo "Bios macintosh copiada"
+echo "Bios macintosh en roms copiada"
 echo "Creando carpeta ports"
 mkdir /home/pi/RetroPie/roms/ports/
 echo "Creando carpeta Cannonball"
 mkdir /home/pi/RetroPie/roms/ports/cannonball/
 echo "Carpeta cannonbal creada"
 echo
-echo "Copiando cannonball"
+echo "Copiando Cannonball"
 cp -r /home/pi/RetroPieBios/roms/ports/cannonball/* /home/pi/RetroPie/roms/ports/cannonball/
 echo "Moviendonos a la carpeta cannonball"
 cd /home/pi/RetroPie/roms/ports/cannonball/
@@ -46,6 +46,20 @@ find ./ -iname "*.zip" -execdir unzip -o '{}' ';'
 echo
 cd
 echo "Cannonball copiado"
+echo
+echo "Creando carpeta CaveStory"
+mkdir /home/pi/RetroPie/roms/ports/CaveStory/
+echo "Carpeta CaveStory creada"
+echo "Copiando CaveStory Doukutsu"
+cp -r /home/pi/RetroPieBios/roms/ports/CaveStory/* /home/pi/RetroPie/roms/ports/CaveStory/
+echo "CaveStory copiado"
+echo
+echo "Creando carpeta xrick"
+mkdir /home/pi/RetroPie/roms/ports/xrick/
+echo "Carpeta xrick creada"
+echo "Copiando xrick data"
+cp -r /home/pi/RetroPieBios/roms/ports/xrick/* /home/pi/RetroPie/roms/ports/xrick/
+echo "xrick copiado"
 echo
 echo "Copiando Bios neogeo a las carpetas correspondientes" 
 echo
@@ -98,4 +112,4 @@ echo
 echo "Que esperas, reinicia de una vez"
 sleep 7
 sudo reboot
-exit
+exit 0
