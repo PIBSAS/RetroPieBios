@@ -1,4 +1,0 @@
-<rom>
-            <filename>ax370_disk.rom</filename>
-            <sha1>9efa744be8355675e7bfdd3976bbbfaf85d62e1d</sha1> <!-- Taken from blueMSX config, because could not be dumped with SAVEROM/GETROM! -->
-          </rom>
