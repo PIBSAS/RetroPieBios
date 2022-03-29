@@ -1,0 +1,2 @@
+<filename>ExpertTurbo_msx2psub-fmbasic.rom</filename>
+            <sha1>ca79a8cc7714a5d48d2e567a2d4d7ba3fe587825</sha1>
