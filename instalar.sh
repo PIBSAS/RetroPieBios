@@ -8,7 +8,7 @@ echo "Obteniendo Bios"
 git clone https://github.com/Luciano2018/RetroPieBios.git
 
 echo "Moviendo las Bios al lugar adecuado"
-cp -r /home/pi/RetroPieBios/BIOS/* /home/pi/RetroPie/BIOS/
+cp -r $HOME/RetroPieBios/BIOS/* $HOME/RetroPie/BIOS/
 echo
 echo "BIOS movidas"
 echo
@@ -21,26 +21,26 @@ sudo mkdir /opt/retropie/configs/nds/drastic/
 echo "Carpeta drastic creada"
 sudo mkdir /opt/retropie/configs/nds/drastic/system/
 echo "Carpeta system creada"
-sudo cp -r /home/pi/RetroPieBios/opt/retropie/configs/nds/drastic/system/* /opt/retropie/configs/nds/drastic/system/
+sudo cp -r $HOME/RetroPieBios/opt/retropie/configs/nds/drastic/system/* /opt/retropie/configs/nds/drastic/system/
 echo "Bios Drastic copiadas"
-sudo cp -r /home/pi/RetroPieBios/opt/retropie/emulators/retroarch/bin/* /opt/retropie/emulators/retroarch/bin/
+sudo cp -r $HOME/RetroPieBios/opt/retropie/emulators/retroarch/bin/* /opt/retropie/emulators/retroarch/bin/
 echo "Bios Macintosh copiada"
 echo "Moviendo BIOS que deben estar en la carpeta roms"
 echo "Creando carpeta macintosh"
-mkdir /home/pi/RetroPie/roms/macintosh/
+mkdir $HOME/RetroPie/roms/macintosh/
 echo "Carpeta macintosh creada"
-cp -r /home/pi/RetroPieBios/roms/macintosh/* /home/pi/RetroPie/roms/macintosh/
+cp -r $HOME/RetroPieBios/roms/macintosh/* $HOME/RetroPie/roms/macintosh/
 echo "Bios macintosh en roms copiada"
 echo "Creando carpeta ports"
-mkdir /home/pi/RetroPie/roms/ports/
+mkdir $HOME/RetroPie/roms/ports/
 echo "Creando carpeta Cannonball"
-mkdir /home/pi/RetroPie/roms/ports/cannonball/
+mkdir $HOME/RetroPie/roms/ports/cannonball/
 echo "Carpeta cannonbal creada"
 echo
 echo "Copiando Cannonball"
-cp -r /home/pi/RetroPieBios/roms/ports/cannonball/* /home/pi/RetroPie/roms/ports/cannonball/
+cp -r $HOME/RetroPieBios/roms/ports/cannonball/* $HOME/RetroPie/roms/ports/cannonball/
 echo "Moviendonos a la carpeta cannonball"
-cd /home/pi/RetroPie/roms/ports/cannonball/
+cd $HOME/RetroPie/roms/ports/cannonball/
 echo "Descomprimiendo outrun.zip"
 find ./ -iname "*.zip" -execdir unzip -o '{}' ';'
 echo
@@ -48,55 +48,55 @@ cd
 echo "Cannonball copiado"
 echo
 echo "Creando carpeta CaveStory"
-mkdir /home/pi/RetroPie/roms/ports/CaveStory/
+mkdir $HOME/RetroPie/roms/ports/CaveStory/
 echo "Carpeta CaveStory creada"
 echo "Copiando CaveStory Doukutsu"
-cp -r /home/pi/RetroPieBios/roms/ports/CaveStory/* /home/pi/RetroPie/roms/ports/CaveStory/
+cp -r $HOME/RetroPieBios/roms/ports/CaveStory/* $HOME/RetroPie/roms/ports/CaveStory/
 echo "CaveStory copiado"
 echo
 echo "Creando carpeta xrick"
-mkdir /home/pi/RetroPie/roms/ports/xrick/
+mkdir $HOME/RetroPie/roms/ports/xrick/
 echo "Carpeta xrick creada"
 echo "Copiando xrick data"
-cp -r /home/pi/RetroPieBios/roms/ports/xrick/* /home/pi/RetroPie/roms/ports/xrick/
+cp -r $HOME/RetroPieBios/roms/ports/xrick/* $HOME/RetroPie/roms/ports/xrick/
 echo "xrick copiado"
 echo
 echo "Copiando Bios neogeo a las carpetas correspondientes" 
 echo
-cp -r /home/pi/RetroPieBios/roms/neogeo/* /home/pi/RetroPie/roms/neogeo/
+cp -r $HOME/RetroPieBios/roms/neogeo/* $HOME/RetroPie/roms/neogeo/
 echo "Bios copiada en directorio neogeo"
-cp -r /home/pi/RetroPieBios/roms/neogeo/* /home/pi/RetroPie/roms/arcade/
+cp -r $HOME/RetroPieBios/roms/neogeo/* $HOME/RetroPie/roms/arcade/
 echo "Bios copiada en directorio arcade"
-cp -r /home/pi/RetroPieBios/roms/neogeo/* /home/pi/RetroPie/roms/fba/
+cp -r $HOME/RetroPieBios/roms/neogeo/* $HOME/RetroPie/roms/fba/
 echo "Bios copiada en directorio fba"
-cp -r /home/pi/RetroPieBios/roms/mame-libretro/* /home/pi/RetroPie/roms/mame-libretro/
+cp -r $HOME/RetroPieBios/roms/mame-libretro/* $HOME/RetroPie/roms/mame-libretro/
 echo "Bios lr-mame2003plus copiadas en directorio mame-libretro"
 echo
 echo "Creando directorio mame"
-mkdir /home/pi/RetroPie/roms/mame
+mkdir $HOME/RetroPie/roms/mame
 echo "Creado"
-cp -r /home/pi/RetroPieBios/roms/mame/* /home/pi/RetroPie/roms/mame/
+cp -r $HOME/RetroPieBios/roms/mame/* $HOME/RetroPie/roms/mame/
 echo "Descargando Bios aristmk6"
-wget -c https://archive.org/download/mame0235bios/aristmk6.zip -P /home/pi/RetroPie/roms/mame/
+wget -c https://archive.org/download/mame0235bios/aristmk6.zip -P $HOME/RetroPie/roms/mame/
 echo "Bios MAME Current copiadas en directorio mame"
 echo
 echo "Creando directorio mame-mame4all"
-mkdir /home/pi/RetroPie/roms/mame-mame4all
+mkdir $HOME/RetroPie/roms/mame-mame4all
 echo "Creado"
-cp -r /home/pi/RetroPieBios/roms/neogeo/* /home/pi/RetroPie/roms/mame-mame4all/
+cp -r $HOME/RetroPieBios/roms/neogeo/* $HOME/RetroPie/roms/mame-mame4all/
 echo "Bios copiada en directorio mame-mame4all"
 echo
 echo "Creando directorio mame-advmame"
-mkdir /home/pi/RetroPie/roms/mame-advmame
+mkdir $HOME/RetroPie/roms/mame-advmame
 echo "Creado"
-cp -r /home/pi/RetroPieBios/roms/neogeo/* /home/pi/RetroPie/roms/mame-advmame/
+cp -r $HOME/RetroPieBios/roms/neogeo/* $HOME/RetroPie/roms/mame-advmame/
 echo "Bios copiada en directorio mame-advmame"
 echo
 echo "Al fin, Copiadas todas las BIOS"
 echo
 echo "Regresando a casa para pasar la escoba"
 cd ..
-sudo rm -rf /home/pi/RetroPieBios/
+sudo rm -rf $HOME/RetroPieBios/
 echo "Listo, todo limpio"
 echo "Reinicia tu Raspberry Pi con <sudo reboot> y Disfruta"
 echo "Saludos desde Raspberry Pi Buenos Aires"
@@ -111,5 +111,5 @@ sleep 4
 echo 
 echo "Que esperas, reinicia de una vez"
 sleep 7
-sudo reboot
+#sudo reboot
 exit 0
