@@ -8,7 +8,7 @@ Las Bios Correctas y necesarias para RetroPie, sin archivos innecesarios. Ahora 
 <img src="https://raw.githubusercontent.com/Luciano2018/RetroPieBios/master/logov3.png" alt="Raspberry Pi Buenos Aires" width="400" height="500">
 </p>
 
-# Instalacion facil:
+# Instalación fácil:
 
 Salimos con **F4** a la terminal de RetroPie e introducimos:
 ```
@@ -16,6 +16,14 @@ curl -sSL https://raw.githubusercontent.com/Luciano2018/RetroPieBios/master/inst
 ```
 # Tutorial: Retroconsolas
 https://sites.google.com/view/raspberrypibuenosaires/retro-consolas
+
+<h1 align="center"> Invite a Coffee</h1>
+</p>
+<p align="center">
+<a href="https://www.paypal.com/paypalme/RaspberryPiBsAs">
+<img src="https://raw.githubusercontent.com/Luciano2018/MiPiTV/master/Paypal_2014_logo.png" alt="Invite a Coffee" width="40" height="50">
+</a>
+</p>
 
 # Tutorial: Instalar RetroPie dentro de Raspberry Pi OS como una app mas
 https://sites.google.com/view/raspberrypibuenosaires/instala-retropie-en-raspberry-pi-os
