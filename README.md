@@ -8,6 +8,8 @@ Las Bios Correctas y necesarias para RetroPie, sin archivos innecesarios. Ahora 
 <img src="https://raw.githubusercontent.com/Luciano2018/RetroPieBios/master/logov3.png" alt="Raspberry Pi Buenos Aires" width="400" height="500">
 </p>
 
+[![Invitame un café en cafecito.app](https://cdn.cafecito.app/imgs/buttons/button_6.svg)](https://cafecito.app/lucianoraspberrypi)
+
 # Instalación fácil:
 
 Salimos con **F4** a la terminal de RetroPie e introducimos:
@@ -36,5 +38,3 @@ https://sites.google.com/view/raspberrypibuenosaires/sega-model-3-retropie-raspb
 
 # Tutorial: Crea tu propio Joystick Arcade con Pro-Micro mejor que Zero Delay
 https://sites.google.com/view/raspberrypibuenosaires/joystick-arcade
-
-[![Invitame un café en cafecito.app](https://cdn.cafecito.app/imgs/buttons/button_6.svg)](https://cafecito.app/raspberrypibsas)
