@@ -1,11 +1,11 @@
 #!/bin/bash
 ###########################################################################
-# Repositorio: RetroPie 4.8 Bios 2022
+# Repositorio: RetroPieBios
 # Por: Raspberry Pi Buenos Aires (https://sites.google.com/view/raspberrypibuenosaires/)
 # License: http://creativecommons.org/licenses/by-sa/4.0/
 ###########################################################################
 echo "Obteniendo Bios"
-git clone https://github.com/Luciano2018/RetroPieBios.git
+git clone https://github.com/PIBSAS/RetroPieBios.git
 
 echo "Moviendo las Bios al lugar adecuado"
 cp -r $HOME/RetroPieBios/BIOS/* $HOME/RetroPie/BIOS/
