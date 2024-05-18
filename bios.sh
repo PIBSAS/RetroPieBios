@@ -1,6 +1,6 @@
 #!/bin/bash
 ###########################################################################
-# Repositorio: RetroPieBios
+# Repositorio: RetroPieBios 2024
 # Por: Raspberry Pi Buenos Aires (https://sites.google.com/view/raspberrypibuenosaires/)
 # License: http://creativecommons.org/licenses/by-sa/4.0/
 ###########################################################################
@@ -12,7 +12,7 @@ cp -r $HOME/RetroPieBios/BIOS/* $HOME/RetroPie/BIOS/
 echo
 echo "BIOS movidas"
 echo
-echo "moviendo BIOS especiales"
+echo "Moviendo BIOS especiales"
 echo
 echo "Creando carpetas inexistentes, si ya existe dara mensaje no te preocupes"
 sudo mkdir /opt/retropie/configs/nds/
@@ -59,7 +59,7 @@ mkdir $HOME/RetroPie/roms/ports/xrick/
 echo "Carpeta xrick creada"
 echo "Copiando xrick data"
 cp -r $HOME/RetroPieBios/roms/ports/xrick/* $HOME/RetroPie/roms/ports/xrick/
-echo "xrick copiado"
+echo "xrick Copiado"
 echo
 echo "Copiando Bios neogeo a las carpetas correspondientes" 
 echo
