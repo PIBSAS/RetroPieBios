@@ -31,7 +31,7 @@ https://sites.google.com/view/raspberrypibuenosaires/retro-consolas
 https://sites.google.com/view/raspberrypibuenosaires/retropie-en-raspberry-pi-os
 
 # Tutorial: Agrega Sistemas personalizados a EmulationStation
-https://sites.google.com/view/raspberrypibuenosaires/agregar-sistemas-personalizados-a-retropie
+[https://sites.google.com/view/raspberrypibuenosaires/retropie-custom-system-console](https://sites.google.com/view/raspberrypibuenosaires/retropie-custom-system-console)
 
 # Tutorial: Agrega Sega Model 3
 [https://sites.google.com/view/raspberrypibuenosaires/sega-model-3](https://sites.google.com/view/raspberrypibuenosaires/sega-model-3)
