@@ -15,7 +15,7 @@ Salimos con **F4** a la terminal de RetroPie e introducimos:
 curl -sSL https://raw.githubusercontent.com/PIBSAS/RetroPieBios/master/bios.sh | bash
 ```
 # Tutorial: Retroconsolas
-https://sites.google.com/view/raspberrypibuenosaires/retro-consolas
+https://sites.google.com/view/lucianostech/retro-consolas
 
 <h1 align="center"> Invite a Coffee</h1>
 <p align="center">
