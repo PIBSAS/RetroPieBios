@@ -1,7 +1,7 @@
 #!/bin/bash
 ###########################################################################
 # Repositorio: RetroPieBios 2024
-# Por: Raspberry Pi Buenos Aires (https://sites.google.com/view/raspberrypibuenosaires/)
+# Por: Luciano's tech (https://sites.google.com/view/lucianostech/)
 # License: http://creativecommons.org/licenses/by-sa/4.0/
 ###########################################################################
 echo "Obteniendo Bios"
@@ -99,7 +99,7 @@ cd ..
 sudo rm -rf $HOME/RetroPieBios/
 echo "Listo, todo limpio"
 echo "Reinicia tu Raspberry Pi con <sudo reboot> y Disfruta"
-echo "Saludos desde Raspberry Pi Buenos Aires"
+echo "Saludos desde Luciano's tech"
 echo
 echo "Esta ventana se destruira en.."
 echo "3.."
