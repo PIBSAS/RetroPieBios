@@ -5,7 +5,7 @@ Las Bios Correctas y necesarias para RetroPie, sin archivos innecesarios. Ahora 
 
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/PIBSAS/RetroPieBios/master/logov3.png" alt="Raspberry Pi Buenos Aires" width="400" height="500">
+<img src="https://raw.githubusercontent.com/PIBSAS/RetroPieBios/master/logov3.png" alt="lucianostech" width="400" height="500">
 </p>
 
 # Instalación fácil:
@@ -28,13 +28,13 @@ https://sites.google.com/view/raspberrypibuenosaires/retro-consolas
 </p>
 
 # Tutorial: Instalar RetroPie dentro de Raspberry Pi OS como una app mas
-https://sites.google.com/view/raspberrypibuenosaires/retropie-en-raspberry-pi-os
+https://sites.google.com/view/lucianostech/retropie-en-raspberry-pi-os
 
 # Tutorial: Agrega Sistemas personalizados a EmulationStation
-[https://sites.google.com/view/raspberrypibuenosaires/retropie-custom-system-console](https://sites.google.com/view/raspberrypibuenosaires/retropie-custom-system-console)
+[https://sites.google.com/view/lucianostech/retropie-custom-system-console](https://sites.google.com/view/lucianostech/retropie-custom-system-console)
 
 # Tutorial: Agrega Sega Model 3
-[https://sites.google.com/view/raspberrypibuenosaires/sega-model-3](https://sites.google.com/view/raspberrypibuenosaires/sega-model-3)
+[https://sites.google.com/view/lucianostech/sega-model-3](https://sites.google.com/view/lucianostech/sega-model-3)
 
 # Tutorial: Crea tu propio Joystick Arcade con Pro-Micro mejor que Zero Delay
-https://sites.google.com/view/raspberrypibuenosaires/joystick-arcade
+https://sites.google.com/view/lucianostech/joystick-arcade
